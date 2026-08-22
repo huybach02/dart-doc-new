@@ -516,7 +516,7 @@ hãy đọc [tài liệu thiết kế][].
 
 
 [F-bound]: /language/generics/#f-bounds
-[tài liệu thiết kế]: {{site.repo.dart.lang}}/blob/main/accepted/future-releases/3009-inference-using-bounds/design-document.md#motivating-example
+[tài liệu thiết kế]: {{site.repo.dart.lang}}/blob/main/accepted/3.7/inference-using-bounds/design-document.md#motivating-example
 
 <a id="substituting-types"></a>
 

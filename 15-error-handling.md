@@ -229,7 +229,7 @@ và các đối số của `assert` không được đánh giá.
 
 [dấu phẩy cuối]: /language/collections#trailing-comma
 [`AssertionError`]: {{site.dart-api}}/dart-core/AssertionError-class.html
-[Flutter debug mode]: {{site.flutter-docs}}/testing/debugging#debug-mode-assertions
+[Flutter debug mode]: {{site.flutter-docs}}/testing/build-modes#debug
 [`webdev serve`]: /tools/webdev#serve
 [`dart run`]: /tools/dart-run
 [`dart compile js`]: /tools/dart-compile#js
