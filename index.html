@@ -891,9 +891,16 @@
       const threshold = parseFloat(getComputedStyle(document.documentElement)
         .getPropertyValue('--header-height')) + 28;
       let active = tocHeadings[0];
-      for (const item of tocHeadings) {
-        if (item.heading.getBoundingClientRect().top <= threshold) active = item;
-        else break;
+      const scrollElement = document.scrollingElement || document.documentElement;
+      const reachedBottom = scrollElement.scrollTop + window.innerHeight
+        >= scrollElement.scrollHeight - 2;
+      if (reachedBottom) {
+        active = tocHeadings[tocHeadings.length - 1];
+      } else {
+        for (const item of tocHeadings) {
+          if (item.heading.getBoundingClientRect().top <= threshold) active = item;
+          else break;
+        }
       }
       for (const item of tocHeadings) item.link.classList.toggle('active', item === active);
       const itemTop = active.link.offsetTop;
@@ -980,15 +987,21 @@
     }
 
     function navigate(file, anchor = '') {
-      const hash = `#/${file}${anchor ? `#${anchor}` : ''}`;
-      if (location.hash === hash) loadDoc(file, anchor);
+      const decodedAnchor = decodeHashComponent(anchor);
+      const hash = `#/${file}${decodedAnchor ? `#${encodeURIComponent(decodedAnchor)}` : ''}`;
+      if (location.hash === hash) loadDoc(file, decodedAnchor);
       else location.hash = hash;
+    }
+
+    function decodeHashComponent(value) {
+      try { return decodeURIComponent(value); }
+      catch (_) { return value; }
     }
 
     function readLocation() {
       const raw = location.hash.replace(/^#\//, '');
-      const [file, anchor = ''] = raw.split('#');
-      loadDoc(filenames.includes(file) ? file : filenames[0], anchor);
+      const [file, encodedAnchor = ''] = raw.split('#');
+      loadDoc(filenames.includes(file) ? file : filenames[0], decodeHashComponent(encodedAnchor));
     }
 
     els.search.addEventListener('input', event => renderSidebar(event.target.value));
