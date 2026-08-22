@@ -1,5 +1,5 @@
 ---
-title: Object có thể gọi
+title: Callable objects
 description: Tìm hiểu cách tạo và sử dụng object có thể gọi trong Dart.
 showToc: false
 prevpage:

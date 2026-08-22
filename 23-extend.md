@@ -1,5 +1,5 @@
 ---
-title: Mở rộng một lớp
+title: Extend a class
 description: Tìm hiểu cách tạo subclass từ superclass.
 prevpage:
   url: /language/methods

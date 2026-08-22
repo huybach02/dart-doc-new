@@ -1,5 +1,5 @@
 ---
-title: Các kiểu dựng sẵn
+title: Built-in types
 description: Thông tin về các kiểu được Dart hỗ trợ.
 prevpage:
   url: /language/comments

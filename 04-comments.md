@@ -1,5 +1,5 @@
 ---
-title: Chú thích
+title: Comments
 description: Các loại chú thích khác nhau trong Dart.
 prevpage:
   url: /language/operators

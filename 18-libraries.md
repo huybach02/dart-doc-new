@@ -1,5 +1,5 @@
 ---
-title: Library và import
+title: Libraries & imports
 shortTitle: Library
 description: Hướng dẫn import và triển khai library.
 prevpage:

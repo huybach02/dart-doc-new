@@ -1,5 +1,5 @@
 ---
-title: Giới thiệu về Dart
+title: Introduction to Dart
 shortTitle: Kiến thức cơ bản về Dart
 breadcrumb: Ngôn ngữ
 description: Giới thiệu ngắn gọn về các chương trình Dart và những khái niệm quan trọng.

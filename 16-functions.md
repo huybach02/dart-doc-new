@@ -1,5 +1,5 @@
 ---
-title: Hàm
+title: Functions
 description: Mọi kiến thức về function trong Dart.
 prevpage:
   url: /language/error-handling

@@ -1,5 +1,5 @@
 ---
-title: "Lập trình bất đồng bộ: Stream"
+title: "Asynchronous programming: Streams"
 breadcrumb: Sử dụng stream
 description: Tìm hiểu cách sử dụng stream single-subscription và broadcast.
 ---

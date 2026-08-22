@@ -1,5 +1,5 @@
 ---
-title: Future và xử lý lỗi
+title: Futures and error handling
 description: >-
   Mọi điều bạn muốn biết về cách xử lý error và exception
   khi viết code bất đồng bộ. Và còn nhiều hơn thế nữa.

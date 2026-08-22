@@ -1,5 +1,5 @@
 ---
-title: Tham chiếu class modifier
+title: Class modifiers reference
 description: >-
   Các tổ hợp class modifier được phép và không được phép.
 prevpage:

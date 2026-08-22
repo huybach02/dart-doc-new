@@ -1,5 +1,5 @@
 ---
-title: Concurrency trong Dart
+title: Concurrency in Dart
 description: >-
   Dùng isolate để cho phép thực thi code song song trên nhiều lõi xử lý.
 shortTitle: Concurrency

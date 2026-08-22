@@ -1,5 +1,5 @@
 ---
-title: Constructor
+title: Constructors
 description: Mọi kiến thức về cách sử dụng constructor trong Dart.
 prevpage:
   url: /language/classes

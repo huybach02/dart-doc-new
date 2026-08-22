@@ -1,5 +1,5 @@
 ---
-title: Class modifier dành cho người duy trì API
+title: Class modifiers for API maintainers
 description: >-
  Cách dùng các class modifier được thêm vào Dart 3.0
  để làm API của package vững chắc và dễ bảo trì hơn.

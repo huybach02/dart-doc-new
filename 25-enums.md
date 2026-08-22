@@ -1,5 +1,5 @@
 ---
-title: Kiểu liệt kê
+title: Enumerated types
 description: Tìm hiểu về kiểu enum trong Dart.
 shortTitle: Enum
 prevpage:

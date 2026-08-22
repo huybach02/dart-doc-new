@@ -1,5 +1,5 @@
 ---
-title: Lớp
+title: Classes
 description: Tổng quan về lớp, các instance của lớp và các member của chúng.
 prevpage:
   url: /language/error-handling

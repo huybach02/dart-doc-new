@@ -1,5 +1,5 @@
 ---
-title: Collection
+title: Collections
 description: Tóm tắt về các loại collection khác nhau trong Dart.
 prevpage:
   url: /language/records

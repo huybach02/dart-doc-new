@@ -1,5 +1,5 @@
 ---
-title: Các kiểu pattern
+title: Pattern types
 description: Tài liệu tham khảo về các kiểu pattern trong Dart.
 prevpage:
   url: /language/patterns

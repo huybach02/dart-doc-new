@@ -1,5 +1,5 @@
 ---
-title: Phương thức
+title: Methods
 description: Tìm hiểu về phương thức trong Dart.
 prevpage:
   url: /language/primary-constructors

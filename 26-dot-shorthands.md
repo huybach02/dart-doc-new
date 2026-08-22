@@ -1,5 +1,5 @@
 ---
-title: Dot shorthand
+title: Dot shorthands
 description: Tìm hiểu về cú pháp dot shorthand trong Dart.
 prevpage:
   url: /language/enums

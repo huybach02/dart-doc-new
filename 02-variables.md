@@ -1,5 +1,5 @@
 ---
-title: Biến
+title: Variables
 description: Tìm hiểu về các biến trong Dart.
 prevpage:
   url: /language

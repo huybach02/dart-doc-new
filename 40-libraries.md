@@ -1,5 +1,5 @@
 ---
-title: Các core library của Dart
+title: Dart's core libraries
 shortTitle: Core library
 description: Tìm hiểu về core library và API của Dart.
 nextpage:

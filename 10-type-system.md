@@ -1,5 +1,5 @@
 ---
-title: Hệ thống kiểu Dart
+title: The Dart type system
 shortTitle: Hệ thống kiểu
 description: Lý do và cách viết code Dart sound.
 prevpage:

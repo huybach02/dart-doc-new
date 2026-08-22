@@ -1,5 +1,5 @@
 ---
-title: Mixin
+title: Mixins
 description: Tìm hiểu cách bổ sung tính năng cho một lớp trong Dart.
 prevpage:
   url: /language/extend

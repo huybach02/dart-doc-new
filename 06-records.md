@@ -1,5 +1,5 @@
 ---
-title: Record
+title: Records
 description: Tóm tắt về cấu trúc dữ liệu record trong Dart.
 prevpage:
   url: /language/built-in-types

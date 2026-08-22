@@ -1,5 +1,5 @@
 ---
-title: Class modifier
+title: Class modifiers
 description: >-
   Các keyword modifier cho khai báo lớp nhằm kiểm soát quyền truy cập của library bên ngoài.
 prevpage:

@@ -1,5 +1,5 @@
 ---
-title: Generic
+title: Generics
 description: Tìm hiểu về các kiểu generic trong Dart.
 prevpage:
   url: /language/collections

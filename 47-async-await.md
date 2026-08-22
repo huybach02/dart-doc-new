@@ -1,5 +1,5 @@
 ---
-title: "Lập trình bất đồng bộ: future, async, await"
+title: "Asynchronous programming: futures, async, await"
 shortTitle: Future, async và await
 description: Tìm hiểu và thực hành viết code bất đồng bộ trong DartPad!
 ---

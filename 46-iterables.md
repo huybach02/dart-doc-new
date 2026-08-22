@@ -1,5 +1,5 @@
 ---
-title: Collection Iterable
+title: Iterable collections
 description: >-
   Hướng dẫn tương tác về cách sử dụng object Iterable như list và set.
 showBreadcrumbs: false

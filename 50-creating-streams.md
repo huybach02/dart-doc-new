@@ -1,5 +1,5 @@
 ---
-title: Tạo stream trong Dart
+title: Creating streams in Dart
 shortTitle: Tạo stream
 description: Stream là một chuỗi kết quả; hãy tìm hiểu cách tạo stream của riêng bạn.
 original-date: 2013-04-08

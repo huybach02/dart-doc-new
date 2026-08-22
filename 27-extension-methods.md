@@ -1,5 +1,5 @@
 ---
-title: Extension method
+title: Extension methods
 description: Tìm hiểu cách bổ sung chức năng cho API hiện có.
 prevpage:
   url: /language/dot-shorthands

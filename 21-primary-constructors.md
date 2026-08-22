@@ -1,5 +1,5 @@
 ---
-title: Primary constructor
+title: Primary constructors
 description: >-
   Tạo lớp ngắn gọn bằng cách
   khai báo parameter và field trong header của lớp.

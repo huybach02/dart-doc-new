@@ -1,5 +1,5 @@
 ---
-title: Toán tử
+title: Operators
 description: Tìm hiểu về các toán tử được Dart hỗ trợ.
 prevpage:
   url: /language/variables

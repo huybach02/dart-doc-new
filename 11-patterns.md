@@ -1,5 +1,5 @@
 ---
-title: Pattern
+title: Patterns
 description: Tóm tắt về pattern trong Dart.
 prevpage:
   url: /language/type-system

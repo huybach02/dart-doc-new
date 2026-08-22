@@ -1,5 +1,5 @@
 ---
-title: Quản lý phiên bản ngôn ngữ
+title: Language versioning
 description: >-
   Tìm hiểu cách quản lý phiên bản ngôn ngữ trong Dart hỗ trợ sự phát triển của ngôn ngữ
   và cách cấu hình phiên bản ngôn ngữ cho project cùng các library của bạn.

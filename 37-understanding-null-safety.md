@@ -1,5 +1,5 @@
 ---
-title: Tìm hiểu sâu về null safety
+title: Understanding null safety
 description: >-
     Phân tích chuyên sâu những thay đổi trong ngôn ngữ và thư viện Dart liên quan đến null safety.
 ---

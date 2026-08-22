@@ -1,5 +1,5 @@
 ---
-title: Typedef
+title: Typedefs
 description: Tìm hiểu về bí danh kiểu trong Dart.
 showToc: false
 prevpage:

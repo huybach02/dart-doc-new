@@ -1,5 +1,5 @@
 ---
-title: Isolate
+title: Isolates
 description: Thông tin về cách viết isolate trong Dart.
 shortTitle: Isolate
 lastVerified: 2024-01-04

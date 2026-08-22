@@ -1,5 +1,5 @@
 ---
-title: Extension type
+title: Extension types
 description: Tìm hiểu cách viết interface chỉ có tính static cho một kiểu hiện có.
 prevpage:
   url: /language/extension-methods

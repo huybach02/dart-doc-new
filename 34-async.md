@@ -1,5 +1,5 @@
 ---
-title: Lập trình bất đồng bộ
+title: Asynchronous programming
 description: Thông tin về cách viết code bất đồng bộ trong Dart.
 shortTitle: Lập trình async
 prevpage:
