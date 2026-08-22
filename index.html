@@ -773,7 +773,15 @@
       }
       els.markdown.querySelectorAll('a[href]').forEach(link => {
         const href = link.getAttribute('href');
-        if (href.startsWith('#')) return;
+        if (href.startsWith('#')) {
+          const anchor = href.slice(1);
+          link.setAttribute('href', `#/${activeFile}#${anchor}`);
+          link.addEventListener('click', event => {
+            event.preventDefault();
+            navigate(activeFile, anchor);
+          });
+          return;
+        }
         try {
           // `location.origin` có giá trị "null" khi mở index.html bằng file://,
           // nên URL nội bộ dạng /language/... phải được phân tích độc lập.
