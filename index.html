@@ -775,13 +775,22 @@
         const href = link.getAttribute('href');
         if (href.startsWith('#')) return;
         try {
-          const url = new URL(href, location.origin);
-          const route = url.pathname.replace(/\/$/, '') || '/';
-          const localFile = routes[route] || filenames.find(file => `/${file}` === route);
+          // `location.origin` có giá trị "null" khi mở index.html bằng file://,
+          // nên URL nội bộ dạng /language/... phải được phân tích độc lập.
+          const url = new URL(href, location.href);
+          const [pathWithoutHash, rawAnchor = ''] = href.split('#', 2);
+          const routePath = pathWithoutHash.startsWith('/') ? pathWithoutHash : url.pathname;
+          const route = routePath.replace(/\/$/, '') || '/';
+          const localName = pathWithoutHash.split('/').pop();
+          const localFile = routes[route] ||
+            filenames.find(file => `/${file}` === route || file === localName);
+          const anchor = rawAnchor || url.hash.slice(1);
           if (localFile) {
+            // Viết lại href giúp Ctrl/Cmd+click và mở tab mới vẫn đi qua router.
+            link.setAttribute('href', `#/${localFile}${anchor ? `#${anchor}` : ''}`);
             link.addEventListener('click', event => {
               event.preventDefault();
-              navigate(localFile, url.hash.slice(1));
+              navigate(localFile, anchor);
             });
           } else if (/^https?:/.test(url.protocol)) {
             link.target = '_blank'; link.rel = 'noopener noreferrer';
